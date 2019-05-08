@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+body {
+    background-color: black;
+    font-family: "Gugi";
+}
+
+h1 {
+    color: yellow;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#blue {
+    width: 20%;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-family: "Gugi";
+}
+
+#yellow {
+    width: 20%;
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+    font-family: "Gugi";
+}
+
+#green {
+    width: 20%;
+    background-color: green;
+    color: white;
+    border-color: green;
+    font-family: "Gugi";
+}
+
+#red {
+    width: 20%;
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-family: "Gugi";
+}
+
+h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 33%;
+}
+
+.kaderyellow,
+.kadergreen,
+.kaderred {
+    visibility: hidden;
+}
+
+.kaderblue {
+    height: 15em;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.blueclass,
+.yellowclass {
+    visibility: visible;
+    height: 15em;
+    width: 80%;
+    margin-left: 10%;
+}
+
+button{
+    padding: 1%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px){
+
+    img{
+        width: 49%;
+    }
+
+    button{
+        height: 3em;
+    }
+}
+
+

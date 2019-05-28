@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#cirkel{
+    width: 5%;
+    margin-top: 5px;
+    margin-left: 0px;
+    
+    
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: orange;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    color: white;
+}
+
+body{
+    background-color: thistle;
+    background-image: url("background.jpg");
+}

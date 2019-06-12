@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.logo {
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div > p {
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+
+div > h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+div > img {
+    width: 20%;
+}
+
+body {
+    background-color: #484848;
+}
+
+div {
+    text-align: center;
+}
+
+header {
+    background-color: grey;
+    padding: 1em;
+
+}
+
+button {
+    width: 20%;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1em;
+    margin-left: 40%;
+    margin-top: 5em;
+   
+}
+
+section > img {
+    width: 20em;
+    height: 30em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    color: white;
+
+}
+
+section {
+    margin-left: 9%;
+}
+
+h2{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 5em;
+    padding-top: 2em;
+    width: 100%;
+    border-top: 1px solid black;
+}

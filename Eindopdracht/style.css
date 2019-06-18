@@ -2,19 +2,20 @@
 
 .logo {
     text-align: center;
-    color: ;
+    font-size: 2em;
     font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
 }
 
 div > p {
-    color: white;
+    color: black;
     width: 40%;
     margin-left: 30%;
     font-family: 'Ubuntu', sans-serif;
 }
 
 div > h1 {
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5em;
@@ -26,16 +27,19 @@ div > img {
 }
 
 body {
-    background-color: black;
+    background-image: url(images/bg.jpg);
 
 }
 
 div {
     text-align: center;
+    margin-top: 2em;
+    background: rgba(250, 235, 215, 0.9);
+    padding: 1em;
 }
 
 header {
-    border-bottom: solid 1px white;
+    border-bottom: solid 3px orange;
     padding: 0.1em;
 
 }
@@ -46,12 +50,23 @@ header>h1{
 
 button {
     width: 20%;
+    height: 5em;
     font-size: 1em;
     font-family: 'Ubuntu', sans-serif;
-    padding: 1em;
-    margin-left: 40%;
-    margin-top: 5em;
+    text-align: center;
+    margin-left: 30%;
+    background-color: orange;
+    border: 0;
+    color: none;;
 
+}
+
+.button{
+    margin-left: 0%;
+}
+
+button:hover{
+    background-color: white;
 }
 
 section > img {

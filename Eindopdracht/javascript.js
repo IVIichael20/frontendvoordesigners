@@ -42,6 +42,9 @@ function movies(Json) {
             var div_toggle = document.getElementById('divje');
             div_toggle.classList.toggle("divje1");
 
+            var h3_toggle = document.getElementById('h3');
+            h3_toggle.classList.toggle("h3tje");
+
 
         }
     })
@@ -89,7 +92,6 @@ function buildHTML(Json) {
 
 
 
-
     } else {
 
         i = Math.floor((Math.random() * 6));
@@ -124,6 +126,9 @@ function buildHTML(Json) {
         if (e.keyCode == 27) {
             var div_toggle = document.getElementById('divje');
             div_toggle.classList.toggle("divje1");
+
+            var h3_toggle = document.getElementById('h3');
+            h3_toggle.classList.toggle("h3tje");
 
         }
     })

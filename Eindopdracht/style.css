@@ -7,6 +7,11 @@
     text-transform: uppercase;
 }
 
+.movie{
+    width: 30%;
+    margin: 5% 0% 9% 35%;
+    
+}
 div > p {
     color: black;
     width: 40%;
@@ -28,13 +33,16 @@ div > img {
 
 body {
     background-image: url(images/bg.jpg);
+    background-repeat: repeat;
 
 }
 
 div {
     text-align: center;
     margin-top: 2em;
-    background: rgba(250, 235, 215, 0.9);
+    background: rgba(250, 235, 218, 0.9);
+    /*background-image: url(images/gha.jpg);
+    background-repeat: repeat-x;*/
     padding: 1em;
 }
 
@@ -44,8 +52,16 @@ header {
 
 }
 
+
 header>h1{
     font-size: 1.5em;
+}
+
+#h3{
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 1em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 button {
@@ -72,7 +88,6 @@ button:hover{
 section > img {
     width: 20em;
     height: 30em;
-    margin-left: 1em;
     margin-bottom: 1em;
 
 }
@@ -85,6 +100,7 @@ h1 {
 section {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    margin-top: 5em;
 }
 
 h2 {
@@ -95,4 +111,12 @@ h2 {
     padding-top: 2em;
     width: 100%;
     border-top: 1px solid black;
+}
+
+.divje1{
+    display: none;
+}
+
+.h3tje{
+    display: none;
 }

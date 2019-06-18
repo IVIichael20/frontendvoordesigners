@@ -20,8 +20,10 @@ function movies(Json) {
 
     }
 
+
     for (y = 0; y < Json.length; y++) {
 
+        var y;
         cover = document.createElement('img');
         image = Json[y].cover;
         cover.setAttribute("src", image);
@@ -36,12 +38,14 @@ function movies(Json) {
 
 
     }
+
 }
 
-
+var replacenr = 0;
 
 function buildHTML(Json) {
-    for (i = 0; i < Json.length; i++) {
+
+    if (replacenr == 0) {
 
         var i = Math.floor((Math.random() * 6));
         var div = document.createElement(div);
@@ -50,20 +54,37 @@ function buildHTML(Json) {
         var h1 = document.createElement('h1');
         document.querySelector('div').appendChild(h1);
         h1.innerHTML = Json[i].title;
+        //   document.getElementsByTagName("h1")[1].setAttribute("class", )
 
         var cover = document.createElement('img');
         var image = Json[i].cover;
         cover.setAttribute("src", image)
         document.querySelector('div').appendChild(cover);
 
-        var plot = document.createElement('p');
-        document.querySelector('div').appendChild(plot);
-        plot.innerHTML = Json[i].plot;
+        /*   var plot = document.createElement('p');
+           document.querySelector('div').appendChild(plot);
+           plot.innerHTML = Json[i].plot;*/
 
         var release_date = document.createElement('p');
         document.querySelector('div').appendChild(release_date);
-        release_date.innerHTML = Json[i].release_date + "  " + Json[i].genres;
+        release_date.innerHTML = Json[i].release_date;
+
+        replacenr = replacenr + 1;
+
+    } else {
+
+        var a = Math.floor((Math.random() * 6));
+
+        document.getElementsByTagName("h1")[1].innerHTML = Json[a].title;
+        document.getElementsByTagName("img")[0].src = Json[a].cover;
+        //  document.getElementsByTagName("p")[0].innerHTML = Json[a].plot;
+        document.getElementsByTagName("p")[0].innerHTML = Json[a].release_date;
+
     }
+
+
+
+
 }
 
 fetch('movies.json')
